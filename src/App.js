@@ -2,7 +2,7 @@ import { HexGrid, Layout, Hexagon, Text } from "react-hexgrid";
 import { useCallback, useEffect, useRef, useState } from "react";
 import cn from "classnames";
 
- const App = () => {
+const App = () => {
   const [grid, setGrid] = useState([]);
   const [arrHexagonsWithValues, setArrHexagonsWithValues] = useState([]);
   const selectRef = useRef(null);
@@ -474,10 +474,7 @@ import cn from "classnames";
         <div>RNG-server url</div>
 
         <select id="url-server" ref={selectRef}>
-          <option
-            id="remote"
-            value="//68f02c80-3bed-4e10-a747-4ff774ae905a.pub.instances.scw.cloud"
-          >
+          <option id="remote" value="https://hex2048-lambda.octa.wtf/2">
             Remote server
           </option>
           <option id="localhost" value="http://localhost:13337">
@@ -594,4 +591,4 @@ import cn from "classnames";
     </div>
   );
 };
-export default App
+export default App;
