@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hexagonals2048/packages/client/build/static/css/main.db0bd097.chunk.css",
+    "main.js": "/hexagonals2048/packages/client/build/static/js/main.9052845e.chunk.js",
+    "main.js.map": "/hexagonals2048/packages/client/build/static/js/main.9052845e.chunk.js.map",
+    "runtime-main.js": "/hexagonals2048/packages/client/build/static/js/runtime-main.471a1152.js",
+    "runtime-main.js.map": "/hexagonals2048/packages/client/build/static/js/runtime-main.471a1152.js.map",
+    "static/js/2.70e40a08.chunk.js": "/hexagonals2048/packages/client/build/static/js/2.70e40a08.chunk.js",
+    "static/js/2.70e40a08.chunk.js.map": "/hexagonals2048/packages/client/build/static/js/2.70e40a08.chunk.js.map",
+    "index.html": "/hexagonals2048/packages/client/build/index.html",
+    "static/css/main.db0bd097.chunk.css.map": "/hexagonals2048/packages/client/build/static/css/main.db0bd097.chunk.css.map",
+    "static/js/2.70e40a08.chunk.js.LICENSE.txt": "/hexagonals2048/packages/client/build/static/js/2.70e40a08.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.471a1152.js",
+    "static/js/2.70e40a08.chunk.js",
+    "static/css/main.db0bd097.chunk.css",
+    "static/js/main.9052845e.chunk.js"
+  ]
+}

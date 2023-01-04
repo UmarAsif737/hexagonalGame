@@ -1,0 +1,125 @@
+.app {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls {
+  padding: 12px;
+  background: #EDE4DB;
+  width: 600px;
+}
+
+.controls select {
+  width: 100%;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.button {
+  margin-right: 8px;
+  margin-left: 8px;
+  outline: none;
+  padding: 5px 10px;
+  background-color: slateblue;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.status__text {
+  font-size: large;
+  margin-top: 25px;
+  margin-bottom: -25px;
+}
+
+.rules__text {
+  font-size: large;
+  margin-top: 25px;
+  margin-bottom: -25px;
+}
+
+.field {
+  position: relative;
+}
+
+.hexgrid svg g {
+  fill: #C5B9AF;
+}
+
+svg g polygon {
+  stroke: #B3A79C;
+  stroke-width: 1;
+  transition: fill-opacity .5s;
+}
+
+.hexgrid__values {
+  position: absolute;
+  top: 0;
+}
+
+.hexgrid__values svg g text {
+  font-size: 0.22em;
+  fill-opacity: 0.7;
+  transition: fill-opacity .5s;
+}
+
+.color-1 g {
+  fill: #EDE4DB;
+}
+
+.color-2 g {
+  fill: #EAE0CB;
+}
+
+.color-3 g {
+  fill: #EAB381;
+}
+
+.color-4 g {
+  fill: #E68367;
+}
+
+.color-5 g {
+  fill: #E78365;
+}
+
+.color-6 g {
+  fill: #E56749;
+}
+
+.color-7 g {
+  fill: #E9CF7F;
+}
+
+.color-8 g {
+  fill: #E9CC71;
+}
+
+.color-9 g {
+  fill: #E8C865;
+}
+
+.color-10 g {
+  fill: #E7C458;
+}
+
+.color-11 g {
+  fill: #EAC34F;
+}
+
+.color-text-1 {
+  fill: black;
+}
+
+.color-text-2 {
+  fill: white;
+}
+
